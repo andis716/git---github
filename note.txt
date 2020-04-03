@@ -1,0 +1,65 @@
+                           * RANGKUMAN GIT & GITHUB *
+
+1. GIT
+
+   Struktur area pada git command line :
+
+- Working area          : Yaitu folder yang bekerja dalam sebuah git
+- Staging area          : Dimana tempat git melakukan commit / Perubahan
+                          Staging area tersimpaan pada folder .git
+- History               : Dimana kita dapat melihat history perubahan commit
+                          dengan perintah ( .git log )
+
+   Sebutan sebutan Git & Github :
+   
+- Branch                : Cabang bebas dalam sebuah repository 
+- Commit                : Statement perubahan dengan sebuah pesan
+- Hash                  : Penanda unik di setiap commit
+- Repository            : Tempat melakukan pengolah perubahan project repo 
+- Fork                  : Mengambil repo dari remote dengan cara copy source 
+                          Repository sumber ( github, gitlab, gitbucket )
+- Fast-forward          : Jalur langsung dalam proses penggabungan branch
+                          / direct path 
+- Tree-way merge        : Jalur yang tidak memiliki direct path, proses ini
+                          proses ini sekligus melakukan commit disaat
+                          melakukan merge diantara 2 branch yang tidak memiliki
+                          direct path.
+
+
+   * Perintah Gitbash ( Command Line )  
+   $ pwd                : Print Working Directory, untuk mengetahui posisi
+                          folder mana yang sedang bekerja dalam gitbash 
+   $ ls                 : Untuk menampilkan list / daftar Directory
+   $ git reset          : Untuk mereset commit sebelumnya
+   $ git init           : Untuk melakukan initialisasi untuk membuat 
+                          Repository baru
+   $ git add (file)     : Menambahkan file baru dengan menginisialisakikan
+                          nama file sebelum melakukan commit
+   $ git config         : Untuk melukan configurasi pengguna kedalam git
+   $ git branch         : Untuk menampilkan branch
+   $ git branch (name)  : Untuk membuat branch baru
+   $ git status         : Untuk menampilkan status Repository
+   $ git commit -m      : Untuk melakukan commit ( -m ) pesan commit
+   $ git help           : Untuk menampilakan perintah  perintah di dalam
+                          command line / gitbash
+   $ rm -rf .git        : Untuk meninggalkan repository dalam git/gitbash
+   $ git checkout       : Untuk berpindah ke branch lain
+   $ git merge          : Untuk menggabungkan branch
+   $ git branch --merge : Untuk mengecek, apakah branch sudah di gabung/belum
+   $ git remote         : Mengelola sumber repository sperti Github, Gitlab
+   $ git clone          : Untuk mengambil git repo dengan cara download
+   $ git push           : Mengirimkan repo kedalam sumber repository
+   $ git pull           : Mengambil repo dari sumber repository 
+   $ git add .          : Menambahkan semua folder/file sebelum commit 
+   $ git log            : Untuk melihat history commit 
+   $ clear              : Untuk membersihkan command line gitbash 
+   $ git branch -d      : Untuk menghapus branch 
+
+
+            Note :
+   $ git log --all --decorate --oneline --graph 
+                        : Untuk melihat Graph history pada semua branch 
+   $ Alias graph= " --all --decorate --oneline --graph "
+                        : Untuk mempersingkat memanggil graph
+   
+
