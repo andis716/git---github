@@ -54,6 +54,7 @@
    $ git log            : Untuk melihat history commit 
    $ clear              : Untuk membersihkan command line gitbash 
    $ git branch -d      : Untuk menghapus branch 
+   $ git config --list  : Untuk melihat detail siapa yang melakukan commit
 
 
             Note :
